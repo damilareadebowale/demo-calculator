@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1">
+        <title>Demo Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="descal.js"></script>
+    </head>
+
+    <body>
+        <header>
+                <p>This is a demo calculator</p>
+        </header>
+
+        <main>
+            <article>
+                <section>
+                        <p>Calculator</p>
+                        <form name="simpleCalculator">
+                        <div>
+                        <input type="text" name="answer" id="answerscreen">
+                        <input type="text" name="display" id="displayscreen">
+                        </div>
+                        <br><br>
+                        <input type="button" name="button1" value="1" onclick="displayFigure(button1.value)">
+                        <input type="button" name="button2" value="2" onclick="displayFigure(button2.value)">
+                        <input type="button" name="button3" value="3" onclick="displayFigure(button3.value)">
+                        <br><br>
+                        <input type="button" name="button4" value="4" onclick="displayFigure(button4.value)">
+                        <input type="button" name="button5" value="5" onclick="displayFigure(button5.value)">
+                        <input type="button" name="button6" value="6" onclick="displayFigure(button6.value)">
+                        <br><br>
+                        <input type="button" name="button7" value="7" onclick="displayFigure(button7.value)">
+                        <input type="button" name="button8" value="8" onclick="displayFigure(button8.value)">
+                        <input type="button" name="button9" value="9" onclick="displayFigure(button9.value)">
+                        <br><br>
+                        <input type="button" name="button0" value="0" onclick="displayFigure(button0.value)">
+                        <input type="button" name="buttondot" value="." onclick="displayFigure(buttondot.value)">
+                        <input type="button" name="delete" value="Del" onclick="deleteButton();">
+                        <br><br>
+                        <input type="button" name="divisionbutton" value="/" onclick="displayFigure(divisionbutton.value)">
+                        <input type="button" name="multiplicationbutton" value="*" onclick="displayFigure(multiplicationbutton.value)">
+                        <input type="button" name="addbutton" value="+" onclick="displayFigure(addbutton.value)">
+                        <br><br>
+                        <input type="button" name="subtractionbutton" value="-" onclick="displayFigure(subtractionbutton.value)">
+                        <input type="button" value="Clear" onclick="clearScreen();">
+                        <input type="button" name="equalbutton" value="=" onclick="display.value=eval(display.value)">
+                        </form>
+                </section>
+
+            </article>
+        </main>
+
+        <footer>
+            
+        </footer>
+    </body>
+</html>
